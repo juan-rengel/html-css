@@ -1,0 +1,48 @@
+body{
+	background: #d2d2c1 url('imagen/fundo.png');
+	font: 16px arial, helvetica, sans-serif;
+}
+#principal {
+	max-width: 900px;
+	min-width: 600px;
+	margin: auto;
+}
+p{
+	text-align: justify;
+	font-size: 1.2em;
+}
+#menu{
+	background: #c5c5b2;
+	padding: 18px;
+}
+
+a{
+	color: #4b566a;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 5px;
+
+}
+.centralizar{
+	text-align:center ;
+
+}
+
+#conteudo{
+background: #e8e8d9;
+padding: 10px;
+}
+#rodape{
+	text-align: center;
+}
+h1{
+	color: #828271 ;
+	font-size: 1.5em ;
+	text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.315);
+}
+.img-campanha{
+	border: 10px solid #c3c3ae;
+}
+img{
+	width: 100%;
+}

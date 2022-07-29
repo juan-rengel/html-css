@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hover</title>
+</head>
+<body>
+    <h1>div hover</h1>
+    <style>
+         div{
+            display: inline-block;
+            border: 1px solid black;
+            background-color: blanchedalmond;
+            height: 150px;
+            width: 150px;
+        }
+        div:hover{
+            background-color: blue;
+        }
+        div > p{
+            display: none;
+        }
+        div:hover > p{
+            display: block;
+            font-size: 30px;
+            color: white;
+            text-align: center;
+        }
+    
+      
+    </style>
+    <div id="d1">p1</div>
+    <div id="d1">p2</div>
+    <div id="d1">p3</div>
+    
+    <p>
+        texto escondido
+    </p>
+    <div>
+        <p>escondido</p>
+    </div>
+</body>
+</html>

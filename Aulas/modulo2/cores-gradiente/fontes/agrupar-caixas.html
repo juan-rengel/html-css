@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(88, 88, 88);
+            margin: 0px;
+        }
+       
+        header{
+            background-color: rgb(184, 184, 184);
+            padding: 5px;
+            margin: 5px;
+            box-shadow: 5px 2px 8px black;
+        }
+        header > h1{
+            text-align: center;
+        }
+        nav{
+            background-color: rgb(6, 143, 97);
+            padding: 3px;
+            box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.479);;
+        }
+        nav > a{
+            padding: 5px;
+            margin-right: 20px;
+            text-decoration: none;
+
+        }
+        nav > a:hover{
+            text-decoration: underline;
+            color: white;
+        }
+
+        main{
+            background-color: rgb(184, 184, 184);
+            padding: 5px;
+            margin: 5px;
+        }
+        article{
+            background-color: antiquewhite;
+        }
+        aside > h2{
+            text-align: center;
+        }
+        aside{
+            background-color: rgb(189, 177, 162);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+        }
+        
+        footer > h3, strong{
+            color: rgb(209, 152, 9);
+            margin: 0px;  /* QUITA EL ESPACIO CREADO EN EL PADDING*/
+        }
+        
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>exemplo de Grouping estructuras</h1>
+        <nav>
+            <a href="#">Noticias</a>
+            <a href="#">Ambiente</a>
+            <a href="#">Grupo</a>
+            <a href="#">Contatos</a>
+        </nav>
+    </header>
+    <main>
+        <section id="noticias">
+            <article>
+                <aside>
+                    <h2>conteudo de noticias</h2>
+                    <p>En este parrafo hablaremos de noticias</p>
+                </aside>
+            </article>
+        </section>
+        <section id="Ambiente">
+            <article>
+                <aside>
+                    <h2>Conteudo de ambiente</h2>
+                    <p>Este es el parraf que hablaremos de ambiente</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <h3>site creado por dev: <strong>Juan jose rengel linares</strong></h3>
+    </footer>
+    
+</body>
+</html>

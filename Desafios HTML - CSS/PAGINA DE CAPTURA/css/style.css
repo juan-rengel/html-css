@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: black;
+}
+/* TITULO */
+.container{
+    max-width: 900px;
+    margin: auto;
+}
+
+header{
+    background-color: cornflowerblue;
+    text-align: center;
+    padding: 10px;
+    color: #fff;
+}
+
+.title{
+    font-size: 26px;
+}
+/* conteudo */
+section{
+    padding: 20px;
+    background-image: url(../imagen/people.jpg);
+    background-size: cover;
+    overflow: hidden;   
+}
+
+.formContainer{
+    background: #FFFFFFBB;
+    max-width: 230px;
+    padding: 20px;
+    float: right;
+}
+
+.mb{
+    margin-bottom: 15px;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]{
+    background-color: cornflowerblue;
+    color: #fff;
+    font-weight: bold;
+}
+
+select{
+     -moz-appearance: none;
+     -webkit-appearance: none;
+     appearance: none;
+
+     background-image: url(/imagen/arrow.jpg);
+     background-repeat: no-repeat;
+     background-position: calc(100% - 10px) center;
+   
+}
+/* rodape*/
+footer{
+    background-color: rgb(24, 23, 23);
+    text-align: center;
+    padding: 20px;
+}
+
+.picture{
+    width: 150px;
+}
+
+.description{
+    color: #fff;
+    display: inline-block;
+    text-align: left;
+    max-width: 40%;
+}
+
+.description h3, .description p{
+    margin-bottom: 10px;
+    margin-left: 40px;
+}
+
+.description h3{
+    font-size: 24px;
+}

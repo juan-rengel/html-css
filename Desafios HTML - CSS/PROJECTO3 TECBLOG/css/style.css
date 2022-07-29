@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 1em;
+    background-color: #eeeef5;
+}
+
+#area-cabezalho{
+    background-color:#f7b600 ;
+   padding: 15px;
+   text-align: center;
+   
+}
+
+#area-logo, #area-menu{
+    padding: 10px;
+}
+
+h1{
+    color: #3e3e41;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+
+}
+.branco{
+    color: white;
+}
+
+a{
+    color: #f7b600;
+    text-decoration: none;
+
+}
+
+#area-cabezalho a:link, #area-cabezalho a:visited{
+    color: aliceblue;
+    padding: 8px 12px;
+    text-decoration: none;
+
+ 
+}
+#area-cabezalho a:hover{
+    color:  #f7b600;
+    background-color: white;
+    text-decoration: underline;
+}
+
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#area-lateral{
+    background-color: #ffffff;
+    float: right;
+}
+
+#area-postagens{
+    width: 660px;
+    float: left;
+    background-color: white;
+
+}
+
+.postagens{
+    padding: 10px;
+    margin-bottom: 10px;
+ 
+}
+
+.data-postagens{
+    font-size: 0.8em;
+    border-bottom: 1px solid #f4f4f4;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    display: block;
+}
+#area-lateral{
+   
+    width: 220px;
+    float: right;
+    padding: 10px;
+
+}
+
+#rodape{
+    background-color: #d4d4db;
+    clear: both;
+    text-align: center;
+    padding: 15px;
+}
+.conteudo-lateral{
+  margin-bottom: 20px;
+}
+   
+
+h3{
+    background-color: #97979b;
+    padding: 5px;
+}
+.conteudo-texto{
+    font-size: 0.8 1em;
+    padding: 5px;
+    margin-bottom: 5px;
+}

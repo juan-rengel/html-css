@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Img se ajusta</title>
+</head>
+<body>
+    <h1>imagen que se adaptan</h1>
+    <picture>
+        <source media="(max-width: 725px)" srcset="img/fotoP.png" type="image/png">
+        <source media="(max-width: 1025px)" srcset="img/fotoM.png" type="image/png">
+        <img src="img/fotoG.png" alt="fondo">
+    </picture>
+    <h1>audio nosso site</h1>
+    <audio preload="metadata" controls> 
+        <source src="audio/audio.mp3" type="audio/mpeg">
+        <source src="audio/audio.ogg" type="audio/ogg">
+        <source src="audio/audio.wav" type="audio/wav">
+    </audio>
+    <p><strong>controls</strong> es para  controlar los audios</p>
+    <p><strong> controls autoplay </strong>es para reproducir el audio automaticamente</p>
+
+    <h1>videos com html</h1>
+
+    <video width="400px" poster="img/capa-video.jpg" controls>
+        <source src="video/videomp4.mp4" type="video/mp4">
+        <source src="video/Videowebm.webm" type="video/mp4">
+        <source src="video/videom4v.mp4" type="video/mp4">
+
+    </video>
+    <p>debo incluir todos los tipos para que puedan ser visualizado en todos los usuarios</p>
+
+    <h1>Videos cargados de youtube</h1>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/dLaNALTHgNA"
+     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write;
+      encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+    <p>De este metodo podemos adicional videos de youtube
+        y no consume espacio en nuestro hospedagems
+    </p>
+
+    <h1>Mas de Youtube</h1>
+
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/5V6c0ZHmxLk"
+     title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+      clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+    </iframe>
+
+    <h1>Videos com videos</h1>
+
+    <iframe src="https://player.vimeo.com/video/722602885?h=e89c587c8b&title=0&byline=0&portrait=0"
+     width="560" height="315" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen>
+    </iframe>
+    <p><a href="https://vimeo.com/722602885">The Tunnel</a> from <a href="https://vimeo.com/griffinpictures">
+        Griffin Pictures</a> on <a href="https://vimeo.com">Vimeo</a>.
+    </p>
+    <p>de este metodo tenemos ocmo usar las meneras de anexar videos en 
+        nossos site
+    </p>
+</body>
+</html>

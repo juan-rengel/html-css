@@ -1,0 +1,11 @@
+.fondo{
+    background-color: rgba(0, 0, 0, 0.945);
+    text-align: center;
+}
+body{
+    color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
