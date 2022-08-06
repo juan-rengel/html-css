@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mas tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+        }
+        thead th{
+            border: 1px solid black;
+            background-color: rgba(167, 215, 239, 0.319);
+            padding: 15px;
+        }
+        tbody{
+            background-color: rgba(174, 169, 169, 0.22);
+        }
+        tbody > th, td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        tfoot{
+            border: 1px solid black;
+            background-color: rgba(167, 215, 239, 0.319);
+            text-align: center;
+
+        }
+        table{
+            max-width: 800px;
+            border-collapse: collapse;
+            margin: auto;
+        }
+        .num{
+            text-align: right;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>uso de tabels grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            THEAD
+                TR, TD, TH
+            TBODY
+                TR, TD, TH
+            TFOOT
+                TR, TD, TH
+    -->
+   <table>
+        <thead>
+            <tr>
+                <th>posição</th>
+                <th>Estados</th>
+                <th>população</th>
+                <th>Mudança</th>
+                <th>% da pop total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>São paulo</td>
+                <td class="num">41 262 199</td>
+                <td>+13.05%</td>
+                <td>21,9%</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Minas Gerais</td>
+                <td class="num">19 597 330</td>
+                <td>+9.26%</td>
+                <td>10,1%</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Rio de janeiro</td>
+                <td class="num">15 989 929</td>
+                <td>+9.21%</td>
+                <td>8,2%</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Bahia</td>
+                <td class="num">14 016 906</td>
+                <td>+6.91%</td>
+                <td>7,1%</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Paraná</td>
+                <td class="num">10 444 526</td>
+                <td>+11.04%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>Rio grande do sur</td>
+                <td class="num">10 693 929</td>
+                <td>+7.23%</td>
+                <td>5,4%</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>Pernambuco</td>
+                <td class="num">8 796 448</td>
+                <td>+9.98%</td>
+                <td>4,5%</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>Ceará</td>
+                <td class="num">8 452 381</td>
+                <td>+9.32%</td>
+                <td>4,3%</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>Pará</td>
+                <td class="num">7 581 051</td>
+                <td>+15.78%</td>
+                <td>4,1%</td>
+            </tr>
+            <tr>
+                <td>10</td>
+                <td>Santa catarina</td>
+                <td class="num">6 248 436</td>
+                <td>+17.44%</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>11</td>
+                <td>Goiás</td>
+                <td class="num">6 003 788</td>
+                <td>+20.03%</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>12</td>
+                <td>Maranhão</td>
+                <td class="num">6 574 789</td>
+                <td>+8.80%</td>
+                <td>3,4%</td>
+            </tr>
+            <tr>
+                <td>13</td>
+                <td>Amazonas</td>
+                <td class="num">3 483 985</td>
+                <td>+22.56%</td>
+                <td>2,0%</td>
+            </tr>
+            <tr>
+                <td>14</td>
+                <td>Espiritu santo</td>
+                <td class="num">3 514 952</td>
+                <td>+16.89%</td>
+                <td>1,9%</td>
+            </tr>
+            <tr>
+                <td>15</td>
+                <td>Paraiba</td>
+                <td class="num">3 766 528</td>
+                <td>+7.79%</td>
+                <td>1,9%</td>
+            </tr>
+            <tr>
+                <td>16</td>
+                <td>Mato grosso</td>
+                <td class="num">3 035 122</td>
+                <td>+17.53%</td>
+                <td>1,7%</td>
+            </tr>
+            <tr>
+                <td>17</td>
+                <td>Rio grande do norte</td>
+                <td class="num">3 168 127</td>
+                <td>+18.56%</td>
+                <td>1,8%</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>Alagoas</td>
+                <td class="num">3 120 494</td>
+                <td>+7.85%</td>
+                <td>1,6%</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>piaui</td>
+                <td class="num">3 118 360</td>
+                <td>+5.48%</td>
+                <td>1,6%</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>Distrito Federal</td>
+                <td class="num">2 570 160</td>
+                <td>+20.87%</td>
+                <td>1,6%</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="2">Nmumero total de pobladores</th>
+                <td colspan="3"><strong>205 658 996</strong></td>
+            </tr>
+        </tfoot>
+   </table>
+</body>
+</html>
