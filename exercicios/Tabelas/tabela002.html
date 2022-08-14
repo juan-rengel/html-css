@@ -21,27 +21,38 @@
             background-color: rgba(167, 215, 239, 0.319);
             padding: 15px;
         }
-        tbody{
-            background-color: rgba(174, 169, 169, 0.22);
-        }
+       
         tbody > th, td{
             border: 1px solid black;
             padding: 5px;
             text-align: center;
         }
+        tbody > tr:nth-child(2n){
+            background-color: rgba(155, 154, 154, 0.319);
+        }
         tfoot{
             border: 1px solid black;
             background-color: rgba(167, 215, 239, 0.319);
-            text-align: center;
-
+            text-align: center;    
         }
         table{
             max-width: 800px;
             border-collapse: collapse;
             margin: auto;
+            position: relative;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(167, 215, 239);
         }
         .num{
             text-align: right;
+        }
+        .cuadro{
+            width: 650px;
+            margin: auto;
+            padding: 20px;
         }
 
     </style>
@@ -66,11 +77,11 @@
         </caption>
         <thead>
             <tr>
-                <th>posição</th>
-                <th>Estados</th>
-                <th>população</th>
-                <th>Mudança</th>
-                <th>% da pop total</th>
+                <th scope="col" style="width: 10px;">posição</th>
+                <th scope="col" style="width: 150px ;">estados</th>
+                <th scope="col">população</th>
+                <th scope="col">Mudança</th>
+                <th scope="col">% da pop total</th>
             </tr>
         </thead>
         <tbody>
@@ -218,10 +229,48 @@
         </tbody>
         <tfoot>
             <tr>
-                <th colspan="2">Nmumero total de pobladores</th>
+                <th scope="row" colspan="2">Nmumero total de pobladores</th>
                 <td colspan="3"><strong>205 658 996</strong></td>
             </tr>
         </tfoot>
    </table>
+   <div class="cuadro">
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tenetur quis eius laborum blanditiis sequi delectus assumenda, voluptatibus cupiditate rerum est, suscipit nobis accusantium architecto pariatur illum. Dolores, provident mollitia?
+       </p>
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tenetur quis eius laborum blanditiis sequi delectus assumenda, voluptatibus cupiditate rerum est, suscipit nobis accusantium architecto pariatur illum. Dolores, provident mollitia?
+       </p>
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tenetur quis eius laborum blanditiis sequi delectus assumenda, voluptatibus cupiditate rerum est, suscipit nobis accusantium architecto pariatur illum. Dolores, provident mollitia?
+       </p>
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tenetur quis eius laborum blanditiis sequi delectus assumenda, voluptatibus cupiditate rerum est, suscipit nobis accusantium architecto pariatur illum. Dolores, provident mollitia?
+       </p>
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tenetur quis eius laborum blanditiis sequi delectus assumenda, voluptatibus cupiditate rerum est, suscipit nobis accusantium architecto pariatur illum. Dolores, provident mollitia?
+       </p>
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tenetur quis eius laborum blanditiis sequi delectus assumenda, voluptatibus cupiditate rerum est, suscipit nobis accusantium architecto pariatur illum. Dolores, provident mollitia?
+       </p>
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tenetur quis eius laborum blanditiis sequi delectus assumenda, voluptatibus cupiditate rerum est, suscipit nobis accusantium architecto pariatur illum. Dolores, provident mollitia?
+       </p>
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tenetur quis eius laborum blanditiis sequi delectus assumenda, voluptatibus cupiditate rerum est, suscipit nobis accusantium architecto pariatur illum. Dolores, provident mollitia?
+       </p>
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tenetur quis eius laborum blanditiis sequi delectus assumenda, voluptatibus cupiditate rerum est, suscipit nobis accusantium architecto pariatur illum. Dolores, provident mollitia?
+       </p>
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tenetur quis eius laborum blanditiis sequi delectus assumenda, voluptatibus cupiditate rerum est, suscipit nobis accusantium architecto pariatur illum. Dolores, provident mollitia?
+       </p>
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tenetur quis eius laborum blanditiis sequi delectus assumenda, voluptatibus cupiditate rerum est, suscipit nobis accusantium architecto pariatur illum. Dolores, provident mollitia?
+       </p>
+       <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Alias tenetur quis eius laborum blanditiis sequi delectus assumenda, voluptatibus cupiditate rerum est, suscipit nobis accusantium architecto pariatur illum. Dolores, provident mollitia?
+       </p>
+   </div>
 </body>
 </html>
