@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <style>
+        {
+            border: 1px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form method="post" action="cadastro-php">
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nome" id="inome">
+        </p>
+        
+        <p>
+            <label for="isobrenome">Sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        <p>
+            <label for="senha">Senha</label>
+            <input type="password" name="senha" id="senha">
+        </p>
+        <p>
+            <input type="submit" value="ENVIAR">
+        </p>
+    </form>
+
+
+
+
+    <!--Nao existe ligaçoes entre o nome e o input. para isso debemos adicional outros elementos para juntar os campos-->
+</body>
+</html>
