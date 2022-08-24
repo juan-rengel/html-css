@@ -9,6 +9,6 @@
 </a>
 <a href="https://juan-rengel.github.io/cordel-moderno/">Cordel Moderno
 </a>
- <iframe name="JR" src="iframe-readme.html"frameborder="0">
+<iframe src="iframe-readme.html"target="JR" >
     
- </iframe>
+</iframe>
