@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Form. telefones y gmail</h1>
+    <form action="post">
+        <fieldset>
+            <legend>dados pessoal</legend>
+            <p>
+                <label for="iname">Name:</label>
+                <input type="text" name="nome" id="iname" placeholder="nome" required>
+            </p>
+            <p>
+                <label for="ipellido">Apellido:</label>
+                <input type="text" name="apellido" id="iapellido" placeholder="apellido" required>
+            </p>
+            <p>
+                <label for="iedad">Edade:</label>
+                <input type="number" name="edade" id="iedad" maxlength="3" placeholder="edade" required>
+            </p>
+            <p>
+                <label for="sexm">Masculino</label>
+               <input type="radio" name="sexo" id="sexm" checked>
+               <label for="sexf">Femenino</label>
+               <input type="radio" name="sexo" id="sexf">
+            </p>
+            <p>
+                <label for="nac">Data de nascimento</label>
+                <input type="date" name="aniversario" id="nac" required>
+            </p>
+            <p>
+                <label for="itelf">Telefone:</label>
+                <input type="tel" name="telf" id="itelf" size="2" pattern="^\ (\d{2} \) \d{4,5}-\d{4}$" required>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>jogos favoritos</legend>
+            <input type="checkbox" name="domino" id="idomino"><label for="idomino">Domino</label><br>
+            <input type="checkbox" name="ludo" id="iludo"><label for="iludo">Ludo</label><br>
+            <input type="checkbox" name="cartas" id="icarta"><label for="icarta">Cartas</label>
+        </fieldset>
+
+    </form>
+</body>
+</html>
