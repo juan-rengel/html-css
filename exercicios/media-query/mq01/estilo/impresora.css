@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+/* IMPRESAO */
+
+html{
+    font-family: monospace;
+    line-height: 1.4em;
+}
+header{
+    background-color: rgb(124, 190, 190);
+    text-align: center;
+    font-size: 2em;
+}    
+menu{
+    display: none;
+}
+article::after{
+    content: 'site deselvolvido por juan jose rengel linares "estudante de engenharia de software"' ;
+}
