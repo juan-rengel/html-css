@@ -1,0 +1,34 @@
+@charset "UFT-8";
+
+@media all{
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    body,html{
+        width: 100vw;
+        height: 100vh;
+        background-color: #233eff;
+        background-size: contain;
+        background-repeat: no-repeat;
+
+    }
+    h1{
+        color: white;
+        padding: 10px;
+        text-shadow: 2px 2px 2px #0f1963;
+    }
+        
+}
+@media screen and (orientation:portrait) {
+    body{
+        background-image: url(imagen/cev-portrait.jpg);
+        background-position: center bottom;
+    }
+}
+@media screen and (orientation:landscape) {
+    body{
+        background-image: url(imagen/cev-landscape.jpg);
+        background-position:left bottom;
+    }
+}
