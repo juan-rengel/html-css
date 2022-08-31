@@ -7,8 +7,9 @@
     <title>Menu hambuergue</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css" media="all">
 </head>
-<body>
+<body onresize="mudoutamanho">
     <header>
         <h1>Meu site</h1>
         <span id="burguer" class="material-icons" onclick="clickMenu()">menu</span>
@@ -42,6 +43,14 @@
         </article>
     </main>
     <script>
+        function mudoutamanho(){
+            if(window.innerWidth >= 768){
+                itens.style.display = 'block'
+            }else{
+                itens.style.display = 'none'
+            }
+        }
+
         function clickMenu() {
             if(itens.style.display == 'block'){
                 itens.style.display = 'none'
